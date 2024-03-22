@@ -6,11 +6,7 @@ class Identitas:
         self.hobi = hobi
 
     def tampilkan_identitas(self):
-        print("Calista Azzahra (064002300008)")
-        print("--PROGRAM MENAMPILKAN IDENTITAS--")
-        print(f"Nama saya adalah {self.nama} NIM saya ({self.nim}).")
-        print(f"Saya dari fakultas {self.fakultas}.")
-        print(f"Hobi saya adalah {self.hobi}.")
+        print("Calista Azzahra (064002300008)\n--PROGRAM MENAMPILKAN IDENTITAS--\nNama saya adalah {0} NIM saya ({1}).\nSaya dari fakultas {2}.\nHobi saya adalah {3}.".format(self.nama, self.nim, self.fakultas, self.hobi))
 
 
 # Membuat objek dari class Identitas

@@ -11,6 +11,4 @@ class PersegiPanjang:
 persegi_panjang = PersegiPanjang(20, 12)
 
 # Menampilkan informasi
-print("Calista Azzahra 064002300008 Teknik Industri")
-print("-----PROGRAM MENGHITUNG LUAS PERSEGI PANJANG-----")
-print(f"Persegi panjang dengan panjang {persegi_panjang.panjang}cm dan lebar {persegi_panjang.lebar}cm memiliki luas sebesar {persegi_panjang.hitung_luas()}cm^2")
+print("Calista Azzahra 064002300008 Teknik Industri\n-----PROGRAM MENGHITUNG LUAS PERSEGI PANJANG-----\nPersegi panjang dengan panjang {0}cm dan lebar {1}cm memiliki luas sebesar {2}cm^2".format(persegi_panjang.panjang, persegi_panjang.lebar, persegi_panjang.hitung_luas()))
